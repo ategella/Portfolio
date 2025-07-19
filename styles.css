@@ -1,0 +1,222 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    top:0px;
+    left: 0px;
+    position: sticky;
+}
+.nav-bar{
+    font-family: Poppins,Gill Sans;
+    background-color: rgb(190,49,68);
+    padding: 20px 10px;
+    margin: 0%;
+
+}
+.nav-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-div li{
+    list-style: none;
+    display:inline-block;
+    flex-wrap: wrap;
+    justify-content: center; /* center links when wrapping */
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.nav-div li a{
+    color:white;
+    font-size: 35px;
+    font-weight:100;
+    margin-right: 25px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-div li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffd6d6; 
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight:500;
+    color:white;
+}
+.intro{
+    min-height: 900px;
+    display:flex;
+    /* border:8px solid black;  */
+    background-color: rgb(49, 44, 44);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size:4rem;
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+.developer{
+    color:rgb(190,49,68);
+    font-family: Poppins,Gill Sans;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+}
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    font-family: Poppins, Gill Sans;
+    font-weight: 300;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    letter-spacing: 0.5px;
+}
+
+.resume-btn {
+    background-color: rgb(190,49,68);
+    color: white;
+}
+
+.github-btn {
+    background-color: rgb(49, 44, 44);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    min-height: 1000px;
+    background-color: #1e2b38;
+}
+
+.project-image{
+    width:400px;
+    height:300px;
+    padding-bottom: 0%;
+}
+
+.project-title{
+    background-color: rgb(49, 44, 44);
+    font-family: Poppins, Gill Sans;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 35px;
+    font-weight: 300;
+    color:white;
+    border-top: 0cm;
+}
+
+.outro{
+    min-height: 900px;
+    display:flex;
+    /* border:8px solid black; */
+    background-color: rgb(49, 44, 44);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.outro-heading{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size:4rem;
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+.outro-subheading{
+    color:white;
+    font-family: Poppins,Gill Sans;
+    padding-top: 6px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 200;
+}
+.contact-links a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+.contact-links a:hover{
+    /* background-color: rgba(213, 19, 19, 0.1);
+    color: rgb(75, 73, 73); */
+    transform: translateY(-2px);
+    opacity: 0.92;
+}
+.contact-links{
+    display:flex;
+    justify-content: space-between;
+    gap:3rem;
+    padding-top:20px;
+    text-decoration: none;
+    font-size:2rem;
+    font-family: Raleway, Gill Sans;;
+    color:white;
+}
+
+.footer{
+    font-family: Poppins,Gill Sans;
+    background-color: rgb(190,49,68);
+    color: white;
+    padding: 20px 10px;
+    margin: 0%;
+}
+.footer-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project-heading{
+    text-align: center;
+    text-decoration: underline;
+    background-color: #1e2b38;
+    padding-top:50px;
+    padding-bottom: 100px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size:2.3rem;
+    color: white;
+}
