@@ -220,3 +220,32 @@ html{
     font-size:2.3rem;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .nav-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-div li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-div li a {
+        font-size: 24px;
+        margin-right: 0;
+    }
+
+    .logo a {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar {
+        padding: 15px 5px;
+    }
+}
+
